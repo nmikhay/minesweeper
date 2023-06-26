@@ -104,7 +104,6 @@ function gameOver(box){
     lost.classList.toggle("hidden");
     const button = document.querySelector(".button");
     button.classList.toggle("hidden");
-    // to reload the game
     button.addEventListener("click", ()=>{
         location.reload()
     })
@@ -117,8 +116,6 @@ function gameOver(box){
         }
     }
 }
-
-// add Falg
 
 function addFlag(box){
    
@@ -139,7 +136,7 @@ function addFlag(box){
     }
 
 }
-// to check win
+
 function gameWin(){
 
     let contest = 0;
@@ -153,7 +150,6 @@ function gameWin(){
             win.classList.toggle("hidden");
             const button = document.querySelector(".button");
             button.classList.toggle("hidden");
-            // to reload the game
             button.addEventListener("click", ()=>{
                 location.reload()
             })
